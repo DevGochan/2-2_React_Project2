@@ -45,7 +45,7 @@ const Header = () => {
                                 </NavItem>
                             </Nav>
                             <div className="act-buttons">
-                                <Link to="/#coming" className="btn btn-success-gradiant font-14">이건 뭐로 쓸까?    </Link>
+                                <Link to="/#coming" className="btn btn-success-gradiant font-14">다크모드/라이트모드    </Link>
                             </div>
                         </Collapse>
                     </Navbar>

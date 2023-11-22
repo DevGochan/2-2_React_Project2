@@ -17,6 +17,7 @@ import 자기계발이미지 from "./image_1538033669589_2500.jpg";
 import 과학이미지 from "./image_1538033669589_2500.jpg";
 import 여행이미지 from "./image_1538033669589_2500.jpg";
 import 컴퓨터이미지 from "./image_1538033669589_2500.jpg";
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -35,7 +36,9 @@ const Cards = () => {
           <Col md="4">
             <Card body className="card-shadow">
               <img src={소설이미지} alt="소설책 이미지" />
-              <Button>소설</Button>
+              <Link to="/novel">
+                <Button>소설</Button>
+              </Link>
             </Card>
           </Col>
           <Col md="4">
