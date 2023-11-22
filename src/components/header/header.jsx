@@ -25,17 +25,27 @@ const Header = () => {
                             <Nav navbar className="ms-auto">
                                 <NavItem>
                                     <Link className="nav-link" to={"/"}>
-                                        Components
+                                        뉴스피드
                                     </Link>
                                 </NavItem>
                                 <NavItem>
                                     <Link className="nav-link" to={"/custom-components"}>
-                                        Custom-Components
+                                        로그인
+                                    </Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to={"/custom-components"}>
+                                        로그아웃
+                                    </Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to={"/custom-components"}>
+                                        회원가입
                                     </Link>
                                 </NavItem>
                             </Nav>
                             <div className="act-buttons">
-                                <Link to="/#coming" className="btn btn-success-gradiant font-14">Upgrade To Pro</Link>
+                                <Link to="/#coming" className="btn btn-success-gradiant font-14">이건 뭐로 쓸까?    </Link>
                             </div>
                         </Collapse>
                     </Navbar>

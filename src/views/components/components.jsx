@@ -31,7 +31,7 @@ const Components = () => {
                 <div className="container-fluid">
                     <HeaderBanner />
                     <Cards />
-                    <Buttons />
+                    {/* <Buttons />
                     <Labels />
                     <PagePagination />
                     <Images />
@@ -43,7 +43,7 @@ const Components = () => {
                     <TooltipPopover />
                     <Typography />
                     <JsComponents />
-                    <CallToAction />
+                    <CallToAction /> */}
                 </div>
             </div>
             <Footer />
