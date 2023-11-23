@@ -11,13 +11,15 @@ import {
 } from "reactstrap";
 
 // image import
-import 소설이미지 from "./image_1538033669589_2500.jpg";
-import 인문이미지 from "./image_1538033669589_2500.jpg";
-import 자기계발이미지 from "./image_1538033669589_2500.jpg";
-import 과학이미지 from "./image_1538033669589_2500.jpg";
-import 여행이미지 from "./image_1538033669589_2500.jpg";
-import 컴퓨터이미지 from "./image_1538033669589_2500.jpg";
+import novelImg from "./image_1538033669589_2500.jpg";
+import humanitiesImg from "./image_1538033669589_2500.jpg";
+import SelfdevelopmentImg from "./image_1538033669589_2500.jpg";
+import scienceImg from "./image_1538033669589_2500.jpg";
+import travelImg from "./image_1538033669589_2500.jpg";
+import ItImg from "./image_1538033669589_2500.jpg";
 import { Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Novel from "../../../pages/Novel";
 
 const Cards = () => {
   return (
@@ -35,39 +37,55 @@ const Cards = () => {
         <Row>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={소설이미지} alt="소설책 이미지" />
+              <img src={novelImg} alt="소설책 이미지" />
               <Link to="/novel">
-                <Button>소설</Button>
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    소설
+                  </Button>
+                </div>
               </Link>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={인문이미지} alt="소설책 이미지" />
+              <img src={humanitiesImg} alt="인문책 이미지" />
               <Button>인문</Button>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={자기계발이미지} alt="자기계발책 이미지" />
+              <img src={SelfdevelopmentImg} alt="자기계발책 이미지" />
               <Button>자기계발</Button>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={과학이미지} alt="과학책 이미지" />
+              <img src={scienceImg} alt="과학책 이미지" />
               <Button>과학</Button>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={여행이미지} alt="여행책 이미지" />
+              <img src={travelImg} alt="여행책 이미지" />
               <Button>여행</Button>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={컴퓨터이미지} alt="컴퓨터책 이미지" />
+              <img src={ItImg} alt="컴퓨터책 이미지" />
               <Button>컴퓨터/IT</Button>
             </Card>
           </Col>
