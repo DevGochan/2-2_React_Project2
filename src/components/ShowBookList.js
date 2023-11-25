@@ -4,6 +4,7 @@ import Cards from "../views/components/sections/cards";
 import { Link } from "react-router-dom";
 import img2 from "../assets/images/bookimg/novel/2.jpg";
 import HeaderBanner from "./banner/banner";
+import SideButton from "../MoveToTop.js";
 
 const ShowBookList = () => {
   const [hoveredImages, setHoveredImages] = useState({});
@@ -18,7 +19,6 @@ const ShowBookList = () => {
 
   return (
     <>
-
       <div style={{ padding: "40px" }} />{" "}
       {/* 헤더배너와 컨테이너 사이 공간을 위함 */}
       <Container>
@@ -146,6 +146,7 @@ const ShowBookList = () => {
             </Card>
           </Col>
         </Row>
+        <SideButton />
       </Container>
     </>
   );

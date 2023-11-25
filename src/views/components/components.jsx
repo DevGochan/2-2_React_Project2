@@ -22,6 +22,7 @@ import Typography from "./sections/typography.jsx";
 import JsComponents from "./sections/js-components.jsx";
 import CallToAction from "../../components/call-to-action/CallToAction"
 import MainHeaderBanner from "../../components/banner/banner.jsx";
+import SideButton from "../../MoveToTop.js";
 
 
 const Components = () => {
@@ -48,6 +49,7 @@ const Components = () => {
                 </div>
             </div>
             <Footer />
+            <SideButton />
         </div>
     );
 }
