@@ -21,6 +21,7 @@ import TooltipPopover from "./sections/tooltip-popover.jsx";
 import Typography from "./sections/typography.jsx";
 import JsComponents from "./sections/js-components.jsx";
 import CallToAction from "../../components/call-to-action/CallToAction"
+import MainHeaderBanner from "../../components/banner/banner.jsx";
 
 
 const Components = () => {
@@ -29,7 +30,7 @@ const Components = () => {
             <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
-                    <HeaderBanner />
+                    <MainHeaderBanner />
                     <Cards />
                     {/* <Buttons />
                     <Labels />

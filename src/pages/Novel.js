@@ -1,6 +1,6 @@
 import ShowBookList from "../components/ShowBookList";
 import Sidebar from "../components/Sidebar";
-import HeaderBanner from "../components/banner/banner";
+import HeaderBanner, { NovelHeaderBanner } from "../components/banner/banner";
 import CallToAction from "../components/call-to-action/CallToAction";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
@@ -24,6 +24,7 @@ const Novel = () => {
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
+        <NovelHeaderBanner />
           <ShowBookList />
 
           {/* <HeaderBanner />

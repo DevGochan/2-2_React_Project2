@@ -18,7 +18,7 @@ const ShowBookList = () => {
 
   return (
     <>
-      <HeaderBanner />
+
       <div style={{ padding: "40px" }} />{" "}
       {/* 헤더배너와 컨테이너 사이 공간을 위함 */}
       <Container>
