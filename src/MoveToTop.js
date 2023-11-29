@@ -5,7 +5,6 @@ import React from "react";
 import styled from "styled-components";
 import img from "./assets/images/ui/goToTop.png";
 
-
 const GotoTop = styled.div`
   position: fixed;
   bottom: 30px;
@@ -14,14 +13,18 @@ const GotoTop = styled.div`
   transition: opacity 0.3s ease-in-out;
 
   img {
-    width: 50px; // 이미지 크기를 원하는 크기로 조절
+    width: 40px;
     cursor: pointer;
+
+    &:hover {
+      transform: scale(1.3);
+    }
   }
 `;
 
 function SideButton({ opacity }) {
   const MoveToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -30,6 +33,5 @@ function SideButton({ opacity }) {
     </GotoTop>
   );
 }
-
 
 export default SideButton;

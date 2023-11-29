@@ -31,4 +31,74 @@ export const NovelHeaderBanner = () => {
     );
 }
 
+export const HumanitiesHeaderBanner = () => {
+    return (
+        <div className="static-slider-head">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg="8" md="6" className="align-self-center text-center">
+                        <h1 className="title">인문</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
+}
+
+export const SelfDevelopmentHeaderBanner = () => {
+    return (
+        <div className="static-slider-head">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg="8" md="6" className="align-self-center text-center">
+                        <h1 className="title">자기계발</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
+}
+
+export const TravelHeaderBanner = () => {
+    return (
+        <div className="static-slider-head">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg="8" md="6" className="align-self-center text-center">
+                        <h1 className="title">여행</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
+}
+
+export const ITHeaderBanner = () => {
+    return (
+        <div className="static-slider-head">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg="8" md="6" className="align-self-center text-center">
+                        <h1 className="title">컴퓨터/IT</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
+}
+
+export const ScienceHeaderBanner = () => {
+    return (
+        <div className="static-slider-head">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col lg="8" md="6" className="align-self-center text-center">
+                        <h1 className="title">과학</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
+}
+
 export default MainHeaderBanner;

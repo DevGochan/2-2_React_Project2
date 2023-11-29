@@ -62,31 +62,121 @@ const Cards = () => {
           <Col md="4">
             <Card body className="card-shadow">
               <img src={humanitiesImg} alt="인문책 이미지" />
-              <Button>인문</Button>
+              <Link to="/humanities">
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    인문
+                  </Button>
+                </div>
+              </Link>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
               <img src={SelfdevelopmentImg} alt="자기계발책 이미지" />
-              <Button>자기계발</Button>
-            </Card>
-          </Col>
-          <Col md="4">
-            <Card body className="card-shadow">
-              <img src={scienceImg} alt="과학책 이미지" />
-              <Button>과학</Button>
+              <Link to="/selfDevelopment">
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    자기계발
+                  </Button>
+                </div>
+              </Link>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
               <img src={travelImg} alt="여행책 이미지" />
-              <Button>여행</Button>
+              <Link to="/travel">
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    여행
+                  </Button>
+                </div>
+              </Link>
             </Card>
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={ItImg} alt="컴퓨터책 이미지" />
-              <Button>컴퓨터/IT</Button>
+              <img src={ItImg} alt="컴퓨터/IT책 이미지" />
+              <Link to="/IT">
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    컴퓨터/IT
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col md="4">
+            <Card body className="card-shadow">
+              <img src={scienceImg} alt="과학책 이미지" />
+              <Link to="/science">
+                <div
+                  style={{
+                    width: "100%",
+                    justifyContent: "center",
+                    display: "flex",
+                  }}
+                >
+                  <Button
+                    style={{
+                      width: "80%",
+                    }}
+                    outline
+                    color="info"
+                  >
+                    과학
+                  </Button>
+                </div>
+              </Link>
             </Card>
           </Col>
         </Row>
