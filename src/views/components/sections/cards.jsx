@@ -13,9 +13,9 @@ import {
 // image import
 import novelImg from "./image_1538033669589_2500.jpg";
 import humanitiesImg from "./image_1538033669589_2500.jpg";
-import SelfdevelopmentImg from "./image_1538033669589_2500.jpg";
+import ReligionImg from "./image_1538033669589_2500.jpg";
 import scienceImg from "./image_1538033669589_2500.jpg";
-import travelImg from "./image_1538033669589_2500.jpg";
+import historyImg from "./image_1538033669589_2500.jpg";
 import ItImg from "./image_1538033669589_2500.jpg";
 import { Link } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
@@ -85,8 +85,8 @@ const Cards = () => {
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={SelfdevelopmentImg} alt="자기계발책 이미지" />
-              <Link to="/selfDevelopment">
+              <img src={ReligionImg} alt="종교책 이미지" />
+              <Link to="/religion">
                 <div
                   style={{
                     width: "100%",
@@ -101,7 +101,7 @@ const Cards = () => {
                     outline
                     color="info"
                   >
-                    자기계발
+                    종교
                   </Button>
                 </div>
               </Link>
@@ -109,8 +109,8 @@ const Cards = () => {
           </Col>
           <Col md="4">
             <Card body className="card-shadow">
-              <img src={travelImg} alt="여행책 이미지" />
-              <Link to="/travel">
+              <img src={historyImg} alt="역사책 이미지" />
+              <Link to="/history">
                 <div
                   style={{
                     width: "100%",
@@ -125,7 +125,7 @@ const Cards = () => {
                     outline
                     color="info"
                   >
-                    여행
+                    역사
                   </Button>
                 </div>
               </Link>

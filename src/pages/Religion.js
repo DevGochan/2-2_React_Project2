@@ -1,15 +1,16 @@
 import SelfDevelopmentShowBookList from "../components/ShowBookList";
-import { SelfDevelopmentHeaderBanner } from "../components/banner/banner";
+import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
-const Novel = () => {
+const Religion = () => {
+  const category = '종교'
   return (
     <div id="main-wrapper">
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
-          <SelfDevelopmentHeaderBanner />
+          <HeaderBanner category = {category}/>
           <SelfDevelopmentShowBookList />
         </div>
       </div>
@@ -18,4 +19,4 @@ const Novel = () => {
   );
 };
 
-export default Novel;
+export default Religion;

@@ -1,16 +1,17 @@
 import ShowBookList from "../components/ShowBookList";
-import { NovelHeaderBanner } from "../components/banner/banner";
+import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
 
 const Novel = () => {
+  const category = '소설'
   return (
     <div id="main-wrapper">
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
-        <NovelHeaderBanner />
+        <HeaderBanner category = {category}/>
           <ShowBookList />
 
           {/* <HeaderBanner />

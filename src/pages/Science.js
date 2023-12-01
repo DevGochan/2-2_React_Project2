@@ -1,15 +1,16 @@
 import ScienceShowBookList from "../components/HumanitiesShowBookList";
-import { ScienceHeaderBanner } from "../components/banner/banner";
+import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
-const Novel = () => {
+const Science = () => {
+  const category = '과학';
   return (
     <div id="main-wrapper">
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
-          <ScienceHeaderBanner />
+          <HeaderBanner category = {category}/>
           <ScienceShowBookList />
         </div>
       </div>
@@ -18,4 +19,4 @@ const Novel = () => {
   );
 };
 
-export default Novel;
+export default Science;

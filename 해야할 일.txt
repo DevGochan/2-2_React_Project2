@@ -1,1 +1,2 @@
 1. cards.jsx에서 링크 스타일링
+2. props로 category 받아와서 조건부 렌더링?? 해주기

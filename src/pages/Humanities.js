@@ -1,15 +1,16 @@
 import HumanitiesShowBookList from "../components/HumanitiesShowBookList";
-import { HumanitiesHeaderBanner } from "../components/banner/banner";
+import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
-const Novel = () => {
+const Humanities = () => {
+  const category = '인문';
   return (
     <div id="main-wrapper">
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
-          <HumanitiesHeaderBanner />
+          <HeaderBanner category = {category}/>
           <HumanitiesShowBookList />
         </div>
       </div>
@@ -18,4 +19,4 @@ const Novel = () => {
   );
 };
 
-export default Novel;
+export default Humanities;

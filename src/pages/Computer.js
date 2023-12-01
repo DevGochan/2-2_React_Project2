@@ -1,15 +1,16 @@
 import ITShowBookList from "../components/HumanitiesShowBookList";
-import { ITHeaderBanner } from "../components/banner/banner";
+import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
-const Novel = () => {
+const IT = () => {
+  const category = '컴퓨터/IT';
   return (
     <div id="main-wrapper">
       <Header />
       <div className="page-wrapper">
         <div className="container-fluid">
-          <ITHeaderBanner />
+          <HeaderBanner category = {category} />
           <ITShowBookList />
         </div>
       </div>
@@ -18,4 +19,4 @@ const Novel = () => {
   );
 };
 
-export default Novel;
+export default IT;

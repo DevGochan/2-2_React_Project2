@@ -10,11 +10,10 @@ import ScrollTop from "./ScrollTop.js";
 
 import Novel from "./pages/Novel.js";
 import Humanities from "./pages/Humanities.js";
-import SelfDevelopment from "./pages/SelfDevelopment.js";
-import Travel from "./pages/Travel.js";
+import History from "./pages/History.js";
 import Computer from "./pages/Computer.js";
 import Science from "./pages/Science.js";
-
+import Religion from "./pages/Religion.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -27,8 +26,8 @@ root.render(
       <Route path="*" element={<Components />} />
       <Route path="/novel" element={<Novel />} />
       <Route path="/humanities" element={<Humanities />} />
-      <Route path="/selfDevelopment" element={<SelfDevelopment />} />
-      <Route path="/travel" element={<Travel />} />
+      <Route path="/religion" element={<Religion />} />
+      <Route path="/history" element={<History />} />
       <Route path="/IT" element={<Computer />} />
       <Route path="/science" element={<Science />} />
     </Routes>
