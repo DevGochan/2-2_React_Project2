@@ -1,0 +1,27 @@
+[
+    {
+      "imgSrc": "../images/novel/1.jpg",
+      "title": "flff d 1",
+      "author": "Author 1",
+      "translator": "Translator 1",
+      "publicationDate": "Publication Date 1",
+      "description": "Description for book 1 goes here."
+    },
+    {
+      "imgSrc": "../images/novel/2.jpg",
+      "title": "Book Title 2",
+      "author": "Author 2",
+      "translator": "Translator 2",
+      "publicationDate": "Publication Date 2",
+      "description": "Description for book 2 goes here."
+    },
+    {
+      "imgSrc": "../images/novel/3.jpg",
+      "title": "Book Title 3",
+      "author": "Author 3",
+      "translator": "Translator 3",
+      "publicationDate": "Publication Date 3",
+      "description": "Description for book 3 goes here."
+    }
+  ]
+  
