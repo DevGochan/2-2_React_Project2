@@ -7,9 +7,10 @@ const BookCard = ({
   imgSrc,
   title,
   author,
-  translator,
   publicationDate,
   description,
+  description2,
+  link,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -54,14 +55,16 @@ const BookCard = ({
         >
           <h1 style={{ marginBottom: "50px" }}>{title}</h1>
           <h3>
-            <strong>{author}</strong> 저자 | <strong>{translator}</strong>{" "}
-            옮긴이
+            저자 <strong>{author}</strong>
           </h3>
           <h3>{publicationDate}</h3> <hr />
           <h2>
             <i>{description}</i>
           </h2>
-          <p>{description}</p>
+          <p>{description2}</p>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            책 보러 가기
+          </a>
         </div>
       </div>
       <div

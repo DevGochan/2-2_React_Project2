@@ -1,27 +1,57 @@
 [
     {
       "imgSrc": "../images/novel/1.jpg",
-      "title": "NOvel a 1",
-      "author": "Author 1",
-      "translator": "Translator 1",
-      "publicationDate": "Publication Date 1",
-      "description": "Description for book 1 goes here."
+      "title": "데미안",
+      "author": "헤르만 헤세",
+      "publicationDate": "1919",
+      "description": "불안한 젊음에 바치는 헤르만 헤세의 영혼의 이야기!",
+      "description2": "현실에 대결하는 영혼의 발전을 담은 헤르만 헤세의 걸작 『데미안』. 독일 문학의 거장이자 노벨문학상 수상작가 헤르만 헤세의 자전적 소설이다. 1차 세계대전 직후인 1919년 에밀 싱클레어라는 가명으로 발표했던 작품으로, 열 살 소년이 스무 살 청년이 되기까지 고독하고 힘든 성장의 과정을 그리고 있다. 불안과 좌절에 사로잡힌 청춘의 내면을 다룬 이 작품은 지금까지 수많은 청년세대의 마음에 깊은 울림을 전하고 있다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000201096967"
     },
     {
       "imgSrc": "../images/novel/2.jpg",
-      "title": "Book Title 2",
-      "author": "Author 2",
-      "translator": "Translator 2",
-      "publicationDate": "Publication Date 2",
-      "description": "Description for book 2 goes here."
+      "title": "작별하지 않는다",
+      "author": "한강",
+      "publicationDate": "2021. 09. 09",
+      "description": "부커상 수상 이후 5년, 한강 소설의 현재",
+      "description2": "한강을 사랑하는 독자의 입장을 떠나, 서점 직원의 입장에서도 매 해마다 소설가 한강의 신작을 기다렸다. 황순원문학상을 수상한 <눈 한 송이가 녹는 동안>, 김유정문학상을 수상한 <작별>을 함께 엮어 출간될 '눈 3부작'의 물성을 상상하며. 본래 3부작의 마지막 이야기로 놓일 것이었던 이야기, <작별하지 않는다>가 (3부작의 두번째 이야기가 '작별'이었다는 점도 의미심장하게 읽힌다.) 독립된 이야기로 드디어 독자를 찾았다. 한강의 소설을 사랑한 독자라면 첫 문장을 읽는 것만으로도 그의 다정하고 조심스러운 음색이 상상될 법한 시적인 풍경으로, 눈보라가 친다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000000781116"
     },
     {
       "imgSrc": "../images/novel/3.jpg",
-      "title": "Book Title 3",
-      "author": "Author 3",
-      "translator": "Translator 3",
-      "publicationDate": "Publication Date 3",
-      "description": "Description for book 3 goes here."
+      "title": "모순",
+      "author": "양귀자",
+      "publicationDate": "2013.04.01",
+      "description": "인생은 살아가면서 탐구하는 것!",
+      "description2": "이 작품이 출간된 지 15년, 모순으로 얽힌 삶은 여전히 어렵기만 하지만 인생을 그냥 흘려보내고 있는 많은 사람들에게 새롭게 인생을 돌아보는 계기를 마련해준다. 일상의 지극히 사소한 에피소드들을 선별해 들려주며, 인생은 그냥 받아들이는 것이 아니라 탐구하면서 살아야 하는 것임을 이야기한다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000001632467"
+    },
+    {
+      "imgSrc": "../images/novel/4.jpg",
+      "title": "인간 실격",
+      "author": "다자이 오사무",
+      "publicationDate": "2004.05.15",
+      "description": "청춘의 한 시기를 통과 의례처럼 거쳐야 하는 일본 데카당스 문학의 대표작",
+      "description2": "오직 순수함만을 갈망하던 여린 심성의 한 젊은이가 인간들의 위선과 잔인함에 의해 파멸되어 가는 과정을 그린 소설.1948년 서른아홉의 나이로 요절하여 일본 사회에 큰 파장을 남긴 일본 현대 문학의 대표적 작가 다자이 오사무의 작품이다. 어떻게든 사회에 융화되고자 애쓰고, 순수한 것, 더럽혀지지 않은 것에 꿈을 의탁하고, 인간에 대한 구애를 시도하던 주인공이 결국 모든 것에 배반당하고 인간 실격자가 되어가는 패배의 기록을 통해 현대 사회를 예리한 고발하고 있다. 함께 실린 '직소'에서는 유다의 인간적인 측면을 저자만의 독특한 시선으로 새로이 조명하고 있다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000000620240"
+    },
+    {
+      "imgSrc": "../images/novel/5.jpg",
+      "title": "달러구트 꿈 백화점",
+      "author": "이미예",
+      "publicationDate": "2020.07.08",
+      "description": "잠들어야만 입장 가능한 꿈 백화점에서 일어나는 비밀스럽고도 기묘하며 가슴 뭉클한 판타지 소설",
+      "description2": "여기는 잠들어야만 입장할 수 있는 ‘달러구트 꿈 백화점’입니다. 잠들어야만 입장할 수 있는 독특한 마을. 그곳에 들어온 잠든 손님들에게 가장 인기 있는 곳은, 온갖 꿈을 한데 모아 판매하는 ‘달러구트의 꿈 백화점’이다. 긴 잠을 자는 사람들은 물론이고, 짧은 낮잠을 자는 사람들과 동물들로 매일매일 대성황을 이룬다. 범상치 않은 혈통의 주인장 ‘달러구트’, 그리고 그의 최측근에서 일하게 된 신참 직원 ‘페니’, 꿈을 만드는 제작자 ‘아가넵 코코’, 그리고 베일에 둘러싸인 비고 마이어스…등이 등장한다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000001835614"
+    },
+    {
+      "imgSrc": "../images/novel/6.jpg",
+      "title": "모비딕",
+      "author": "허먼 멜빌",
+      "publicationDate": "2022.09.02",
+      "description": "절대적 진리만을 강요하던 폭력의 시대에 맞서 실험적이고 전위적인 문학의 효시가 된 불후의 고전",
+      "description2": "1851년에 출간된 『모비 딕』은 이미 반세기 앞서 20세기에 도래할 모더니즘을 예고했다. 세상 모든 진리를 안다는 듯 신의 위치에서 소설을 써 내려간 19세기 리얼리즘 소설가들과는 달리, 20세기 모더니즘 소설가들은 세상을 바라보는 화자의 주관적 관점과 내면 심리를 극화하는 데 집중했다. 그리하여 『모비 딕』은 획기적인 퓨전풍 스토리텔링, 독창적인 작품 구조, 다양한 인간 군상 추적, 이야기와 상징의 절묘한 결합, 인생의 신비를 둘러싼 깊은 종교적·철학적 탐구, 뛰어난 유머 감각과 풍자, 열린 결말 등등 기존에 없던 실험적이고 전위적인 형식으로 미국 모더니즘 문학의 효시이자 상징주의 문학의 대표작이 되었다.",
+      "link" : "https://product.kyobobook.co.kr/detail/S000061694904"
     }
   ]
   
