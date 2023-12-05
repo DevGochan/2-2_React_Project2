@@ -1,27 +1,56 @@
 [
-    {
-      "imgSrc": "../images/novel/1.jpg",
-      "title": "IT Title 1",
-      "author": "Author 1",
-      "translator": "Translator 1",
-      "publicationDate": "Publication Date 1",
-      "description": "Description for book 1 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/2.jpg",
-      "title": "Book Title 2",
-      "author": "Author 2",
-      "translator": "Translator 2",
-      "publicationDate": "Publication Date 2",
-      "description": "Description for book 2 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/3.jpg",
-      "title": "Book Title 3",
-      "author": "Author 3",
-      "translator": "Translator 3",
-      "publicationDate": "Publication Date 3",
-      "description": "Description for book 3 goes here."
-    }
-  ]
-  
+  {
+    "imgSrc": "../images/computer/1.jpg",
+    "title": "모던 리액트 Deep Dive",
+    "author": "김용찬",
+    "publicationDate": "2023.11.07",
+    "description": "리액트의 핵심 개념과 동작 원리부터 Next.js까지, 리액트의 모든 것",
+    "description2": "이 책에서는 0.x 버전의 리액트부터 최신 버전인 18 버전에 이르기까지, 리액트를 둘러싼 다양한 내용을 다루고 있습니다. 리액트는 하나의 온전한 웹 프레임워크를 지향하지 않아 UI 외에 상태 관리나 서버 사이드 렌더링 등 웹 개발의 많은 영역에서 선택의 여지를 남겨뒀으며, 이 때문에 리액트 개발자라면 알아둬야 할 내용이 많습니다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000210725203"
+  },
+  {
+    "imgSrc": "../images/computer/2.jpg",
+    "title": "Clean Code(클린 코드)",
+    "author": "로버트 C. 마틴",
+    "publicationDate": "2013.12.24",
+    "description": "애자일 소프트웨어 장인 정신",
+    "description2": "『Clean Code(클린 코드)』은 오브젝트 멘토(Object Mentor)의 동료들과 힘을 모아 ‘개발하며’ 클린 코드를 만드는 최상의 애자일 기법을 소개하고 있다. 소프트웨어 장인 정신의 가치를 심어 주며 프로그래밍 실력을 높여줄 것이다. 여러분이 노력만 한다면. 어떤 노력이 필요하냐고? 코드를 읽어야 한다. 아주 많은 코드를. 그리고 코드를 읽으면서 그 코드의 무엇이 옳은지, 그른지 생각도 해야 한다. 좀 더 중요하게는 전문가로서 자신이 지니는 가치와 장인으로서 자기 작품에 대한 헌신을 돌아보게 된다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001032980"
+  },
+  {
+    "imgSrc": "../images/computer/3.jpg",
+    "title": "챗GPT로 만드는 주식 & 암호화폐 자동매매 시스템",
+    "author": "설근민",
+    "publicationDate": "2023.11.17",
+    "description": "코딩은 몰라도 누구나 할 수 있는 파이썬 금융 프로그램",
+    "description2": "코딩을 모르는 사람도 프로그램을 개발할 수 있는 길이 열렸다. 챗GPT에 질문하고, 챗GPT가 만든 코드를 복사해서 붙여넣기만 해도 프로그램이 뚝딱 만들어진다. 중요한 것은 프로그래밍 언어를 아는 것이 아니라, 문제 해결 방식을 떠올리는 것이다. 어떤 데이터를 어떻게 수집하고, 어떤 모듈로 예측 모델을 만들고, 어떤 조건으로 종목 추천을 받을지 생각했다면, 챗GPT를 이용해 자동매매 시스템으로 조합하는 것은 더 이상 어렵지 않다. 증권사 트레이더에게 챗GPT를 활용하는 방식을 배우고, 초보자도 이해하기 쉬운 파이썬으로 직접 프로그램을 만들면서 자연스럽게 코딩 지식과 금융 지식을 익혀보자.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000210885703"
+  },
+  {
+    "imgSrc": "../images/computer/4.jpg",
+    "title": "비전공자를 위한 이해할 수 있는 IT 지식",
+    "author": "최원영",
+    "publicationDate": "2020.07.14",
+    "description": "IT 시대의 필수 교양서!",
+    "description2": "이 책은 비전공자를 위한 ‘IT 기초 문법서’로, 한 번쯤 들어봤을 프로그래밍 언어, 운영체제, 네트워크, API, JSON, 데이터베이스, 이미지 처리, 프레임워크, 라이브러리, 깃(Git), 디자인 이슈 등 다양한 지식을 담고 있습니다. 복잡하게 얽혀 있어 한 번에 이해하기 어려웠던 각각의 지식들을 친숙한 이야기로 쉽게 풀어냄으로써 IT 산업의 전체적인 큰 그림을 그릴 수 있도록 도와줍니다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001981866"
+  },
+  {
+    "imgSrc": "../images/computer/5.jpg",
+    "title": "AWS 교과서",
+    "author": "김원일, 서종호, 김석필",
+    "publicationDate": "2023.10.20",
+    "description": "개념 설명과 실습 예제로 실속 있게 구성한 AWS 입문서!",
+    "description2": "『AWS 교과서』는 컴퓨팅, 네트워킹, 부하분산, 스토리지, 데이터베이스, IAM, 오토 스케일링 등 주요 서비스를 중심으로 개념을 설명한다. 이론이 끝나면 실습으로 직접 서비스를 다뤄보기 때문에 어떻게 동작하는지 제대로 익힐 수 있다. 마지막 장에서는 AWS 서비스를 활용해 프로젝트 실습까지 해본다. AWS를 어디서부터 어떻게 공부해야 할지 모르겠다면 이 책으로 쉽게 입문해보자!",
+    "link" : "https://product.kyobobook.co.kr/detail/S000210532528"
+  },
+  {
+    "imgSrc": "../images/computer/6.jpg",
+    "title": "생성형 AI 빅3 챗GPT, 미드저니, 스테이블 디퓨전",
+    "author": "이용태",
+    "publicationDate": "2023.09.12",
+    "description": "알수록 진짜 돈 되는 기술 | 왕초보도 가능한 오리지널 사용법",
+    "description2": "-생성형 AI, 이제 이 한 권으로 끝내자!! 본문 600페이지 + 별책부록(PDF) 300페이지 그리고 성공적인 비즈니스를 위한 특별 리미티드 도서(PDF) 400페이지까지, 생성형 AI의 모든 것을 담은 책 이 책은 시중에 출간된 책도, 앞으로 출간될 책에서도 없을 AI 시대를 이끌어 가는 챗GPT·미드저니·스테이블 디퓨전을 한 권으로 완벽하게 마스터할 수 있는 유일한 책이다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000208870710"
+  }
+]

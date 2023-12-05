@@ -1,27 +1,56 @@
 [
-    {
-      "imgSrc": "../images/novel/1.jpg",
-      "title": "Hssasdfasdfasdfis Title 1",
-      "author": "Author 1",
-      "translator": "Translator 1",
-      "publicationDate": "Publication Date 1",
-      "description": "Description for book 1 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/2.jpg",
-      "title": "Book Title 2",
-      "author": "Author 2",
-      "translator": "Translator 2",
-      "publicationDate": "Publication Date 2",
-      "description": "Description for book 2 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/3.jpg",
-      "title": "Book Title 3",
-      "author": "Author 3",
-      "translator": "Translator 3",
-      "publicationDate": "Publication Date 3",
-      "description": "Description for book 3 goes here."
-    }
-  ]
-  
+  {
+    "imgSrc": "../images/science/1.jpg",
+    "title": "이기적 유전자",
+    "author": "리처드 도킨스",
+    "publicationDate": "2023.01.30",
+    "description": "독특한 발상과 놀라운 주장으로 40여 년간 수많은 찬사와 논쟁의 중심에 선 과학 교양서의 바이블!",
+    "description2": "1976년, 처음 출간되었을 당시 과학계와 일반 대중들에게 폭발적인 반향을 불러일으키며 세기의 문제작으로 떠오른 『이기적 유전자』는 40년이라는 세월의 검증을 거치며 그 중요성과 깊이를 더욱더 확고하게 인정받았고, 25개 이상의 언어로 번역되었으며 젊은이들이 꼭 읽어야 할 과학계의 고전으로 자리 잡았다. 새로운 디자인과 휴대하기 좋은 판형으로 갈아 입은 이번 40주년 기념판에 새롭게 수록된 에필로그에서 저자는 여전히 ‘이기적 유전자’라는 개념이 갖고 있는 지속적인 타당성을 이야기하며 이 책이 전하는 메시지를 되새긴다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000576524"
+  },
+  {
+    "imgSrc": "../images/science/2.jpg",
+    "title": "코스모스",
+    "author": "칼 세이건",
+    "publicationDate": "2006.12.20",
+    "description": "과학 교양서의 고전",
+    "description2": "과학 교양서의 고전『코스모스』. 이 책에서 저자는 우주의 탄생과 은하계의 진화, 태양의 삶과 죽음, 우주를 떠돌던 먼지가 의식 있는 생명이 되는 과정, 외계 생명의 존재 문제 등에 관한 내용을 수 백장의 사진과 일러스트를 곁들여 흥미롭게 설명한다. 현대 천문학을 대표하는 저명한 과학자인 저자는 이 책에서 사람들의 상상력을 사로잡고, 난해한 개념을 명쾌하게 해설하는 놀라운 능력을 마음껏 발휘한다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001290624"
+  },
+  {
+    "imgSrc": "../images/science/3.jpg",
+    "title": "종의 기원",
+    "author": "찰스 다윈",
+    "publicationDate": "2019.07.31",
+    "description": "한국 진화 생물학계의 역량을 결집한 다윈 선집!",
+    "description2": "21세기 현재도 자연 과학은 물론, 인문 사회 과학 등 학문 세계 전반에서 강력한 영향력을 발휘하고 있는 19세기 영국의 생물학자이자 지질학자이며 박물학자인 찰스 다윈. 최재천 이화여대 에코 과학부 교수가 이끈 다윈 포럼이 기획하고 감수한 한국 진화 생물학계의 역량을 결집한 다윈 선집 「드디어 다윈」 시리즈를 통해 다윈의 주요 저작의 번역 정본을 만나볼 수 있다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001923922"
+  },
+  {
+    "imgSrc": "../images/science/4.jpg",
+    "title": "아메리칸 프로메테우스",
+    "author": "카이 버드",
+    "publicationDate": "2023.06.12",
+    "description": "원자 폭탄의 아버지, 로버트 오펜하이머의 영광과 몰락의 서사시!",
+    "description2": "제2차 세계 대전 승리를 향한 경쟁 속에서 태어난 핵무기는 이미 탄생 직후 엄청난 파괴력과 남용 가능성으로 인해 말 그대로 폭탄이 되어 왔다. 그리고 원자 폭탄을 개발하는 맨해튼 프로젝트의 총지휘자이자 원자 폭탄의 아버지 오펜하이머의 일생에 있어서도 극적인 순간들을 안겨 주었다. 저널리스트인 카이 버드와 영문학과 미국 역사학 교수인 마틴 셔윈 두 사람의 저자가 25년 동안 답사와 인터뷰, FBI 문서 열람 등 자료 수집을 거쳐 쓴 이 책은 2005년 처음 출간되자마자 전미 도서 비평가 협회 전기 부문(The National Book Critics Circle(NBCC) Award for Biography)을 수상하고 2006년에는 퓰리처 상 전기·자서전 부문(Pulitzer Prize for Biography or Autobiography)을 수상한 바 있다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000202687816"
+  },
+  {
+    "imgSrc": "../images/science/5.jpg",
+    "title": "엔트로피",
+    "author": "제레미 리프킨",
+    "publicationDate": "2015.04.01",
+    "description": "엔트로피 법칙이란 무엇인가?",
+    "description2": "‘물질이 열역학적 변화를 일으킬 때 변화된 온도를 열량으로 나눈 값으로서, 쓸 수 없게 된 에너지’를 뜻하는 엔트로피는 가용 에너지를 초과하는 상황에 대한 경고를 담고 있는 책이다. 이를 통해서 역사를 진보로 보는 시각을 무너뜨리고, 과학과 기술이 보다 질서 있는 사회를 만들 것이라는 환상을 다시 한 번 생각해보게 해준다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001366514"
+  },
+  {
+    "imgSrc": "../images/science/6.jpg",
+    "title": "더 위험한 과학책",
+    "author": "랜들 먼로",
+    "publicationDate": "2020.01.25",
+    "description": "지구인이라면 반드시 봐야 할 허를 찌르는 일상 속 과학 원리들",
+    "description2": "그의 책엔 다른 그 어디서도 찾아볼 수 없는 기발한 상상력과 그 상상력을 과학적인 방법으로 풀어가는 놀라움이 있습니다. 집을 통째로 날려서 이사하는 방법이나 나비의 날개에 파일을 실어 해외에 전송하는 법을 과학적으로 알려준다던지, 우사인 볼트와 술래잡기를 한다거나 우주에서 소포를 부치는 방법을 알려주는 등, 기상천외한 발상에 웃음을 짓다가 어느새 자연스럽게 과학적 지식과 정보를 습득하게 되는 놀라운 일이 일어나게 됩니다. 랜들 먼로의 책을 읽게 된다면, 당신도 이 놀라운 일을 겪게 될 것입니다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000731728"
+  }
+]

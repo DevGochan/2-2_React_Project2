@@ -1,27 +1,56 @@
 [
-    {
-      "imgSrc": "../images/novel/1.jpg",
-      "title": "flff d 1",
-      "author": "Author 1",
-      "translator": "Translator 1",
-      "publicationDate": "Publication Date 1",
-      "description": "Description for book 1 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/2.jpg",
-      "title": "Book Title 2",
-      "author": "Author 2",
-      "translator": "Translator 2",
-      "publicationDate": "Publication Date 2",
-      "description": "Description for book 2 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/3.jpg",
-      "title": "Book Title 3",
-      "author": "Author 3",
-      "translator": "Translator 3",
-      "publicationDate": "Publication Date 3",
-      "description": "Description for book 3 goes here."
-    }
-  ]
-  
+  {
+    "imgSrc": "../images/religion/1.jpg",
+    "title": "한국 교회 트렌드 2024",
+    "author": "지용근",
+    "publicationDate": "2023.09.19",
+    "description": "정확한 조사 데이터에 근거한 교회 수축의 시대 2024년 한국 교회 전망과 전략",
+    "description2": "“흐름을 읽는 교회가 살아남는다!!” 한국 교회는 지금 살아남을 수 있을까? 한국 교회 생존 전략 트렌드 정밀 분석서",
+    "link" : "https://product.kyobobook.co.kr/detail/S000208996994"
+  },
+  {
+    "imgSrc": "../images/religion/2.jpg",
+    "title": "법륜 스님의 반야심경 강의",
+    "author": "법륜",
+    "publicationDate": "2022.06.30",
+    "description": "불교의 핵심사상을 대중 눈높이로 풀어낸 역작!",
+    "description2": "2022년 6월, 완전히 새롭게 출간된 『법륜 스님의 반야심경 강의』는 불교를 전혀 모르는 사람들도 이해할 수 있을 만큼 심오한 불교 사상을 체계적이고 과학적으로 더욱더 쉽고 명쾌하게 풀어냈다. 부처님 말씀이 이렇게 이해하기 쉬운 것이었다는 점에 누구나 놀라게 될 것이다. 그리고 2600년 전, 부처님이 괴로움의 원인이 ‘마음’에 있다는 것과 그 괴로움을 해결하는 방법을 완벽히 제시해 주었다는 데 깊이깊이 경탄할 것이다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000061353499"
+  },
+  {
+    "imgSrc": "../images/religion/3.jpg",
+    "title": "하나님, 저 잘 살고 있나요?",
+    "author": "전대진",
+    "publicationDate": "2022.02.10",
+    "description": "충분히 빛나고 있는 당신을 위한 일상 묵상",
+    "description2": "이 책을 통해 우리가 그에게 배울 수 있는 것은 무엇일까? 우리가 큰 교통사고를 당했는데 다친 곳이 없다고 가정해보자. 가장 먼저 무엇을 할까? 하나님께 감사할 것이다. 대부분 거기서 그치지 않을까? 그 상황에서 저자는 목사님께 감사예배를 요청 드린다. 큰 사고였지만 몸에 아무 이상이 없었고, 사고를 통해 더 겸손하고 진실된 마음으로 살아가도록 다시 한 번 스스로를 돌아볼 수 있는 기회를 주신 하나님께 감사했기 때문이다. 곳곳에 하나님을 대하는 이런 적극적인 삶의 태도들이 우리의 신앙을 돌아보게 한다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001848031"
+  },
+  {
+    "imgSrc": "../images/religion/4.jpg",
+    "title": "챗GPT, 목회자는 어떻게 사용할까?(목회자용)",
+    "author": "서경원",
+    "publicationDate": "2023.10.30",
+    "description": "챗GPT로 맞춤형 목회 비서 만들기",
+    "description2": "혜성과 같이 등장해 전 세계를 놀라게 했던 챗GPT. 사람들은 인공지능의 역할이 목회자의 영역도 대체할 것이라고 예측한다. 정말 인공지능이 성도들에게 설교하고 목양하는 날이 올까? 대학원에서 인공지능을 연구한 공학도 출신의 저자는 이에 대해 과장된 우려라고 답한다. 인공지능은 도구일 뿐, 완벽한 설교문을 작성하지 못하며 설교의 중심은 여전히 목회자의 신앙과 통찰에 있기 때문이다. 하지만 빠르고 똑똑한 챗GPT를 기능적으로만 잘 사용한다면, 목회자의 업무 과중을 줄여 오히려 목회자가 본질적인 사역에 집중하는 데 도움을 줄 수 있다고 설명한다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000210724076"
+  },
+  {
+    "imgSrc": "../images/religion/5.jpg",
+    "title": "내면세계의 질서와 영적 성장",
+    "author": "고든 맥도날드",
+    "publicationDate": "2018.09.10",
+    "description": "내면을 바로잡을 때 하나님의 질서가 내게 임한다!",
+    "description2": "‘내면세계의 질서’라는 획기적인 문제를 제기하면서 수많은 그리스도인들을 도전하고 변화시킨 책. 쫓겨다니는 삶에 대한 근본적 해결책으로 내면세계의 질서를 강조하는 이 책은 국내에서 1990년 초판을 선보인 이래 40만 부 가량 판매된 스테디셀러다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000579664"
+  },
+  {
+    "imgSrc": "../images/religion/6.jpg",
+    "title": "인간 붓다 그 위대한 삶과 사상",
+    "author": "법륜",
+    "publicationDate": "2010.03.15",
+    "description": "붓다가 지금 이 땅에 오신다면 어떻게 살아가실까?",
+    "description2": "갈등과 분쟁이 있는 곳에 평화를 실현하는 평화운동가 법륜 스님의 『인간 붓다, 그 위대한 삶과 사상』. 2,600여 년 전 붓다의 삶을 인간의 역사로 재조명한다. 붓다의 위대함을 찬탄하기보다는, 그분의 삶을 통해 오늘을 살아가는 우리 삶의 방향을 점검하고 있다. 특히 '붓다가 지금 이 땅에 오신다면 어떻게 살아가실까?'라는 물음에 대답을 던진다. 붓다가 걸어가신 삶이 지닌 본질적 의미를 찾아내, 우리 삶을 둘러싼 문제를 해결하는 방안을 모색하고 있다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001351322"
+  }
+]

@@ -1,27 +1,56 @@
 [
-    {
-      "imgSrc": "../images/novel/1.jpg",
-      "title": "Hssasdfasdfasdfis Title 1",
-      "author": "Author 1",
-      "translator": "Translator 1",
-      "publicationDate": "Publication Date 1",
-      "description": "Description for book 1 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/2.jpg",
-      "title": "Book Title 2",
-      "author": "Author 2",
-      "translator": "Translator 2",
-      "publicationDate": "Publication Date 2",
-      "description": "Description for book 2 goes here."
-    },
-    {
-      "imgSrc": "../images/novel/3.jpg",
-      "title": "Book Title 3",
-      "author": "Author 3",
-      "translator": "Translator 3",
-      "publicationDate": "Publication Date 3",
-      "description": "Description for book 3 goes here."
-    }
-  ]
-  
+  {
+    "imgSrc": "../images/humanities/1.jpg",
+    "title": "사피엔스",
+    "author": "유발 하라리",
+    "publicationDate": "2015.11.24",
+    "description": "인간의 역사와 미래에 대한 가장 논쟁적이고 대담한 대서사",
+    "description2": "‘천재 사상가’(뉴욕타임스) 유발 하라리의 대표작 《사피엔스》. 이제 불황이라는 수식어가 전혀 어색하지 않은 국내 출판시장에서도 《사피엔스》는 인문교양 분야의 트렌드를 주도하며 2023년 1월 기준 ‘200쇄 발행·115만부 판매’라는 놀라운 기록을 거두고 있다. 인류 역사와 미래를 종횡무진 가로지르는 《사피엔스》의 통찰은 불확실하고 복잡한 세계를 이해하고 대비하는 데 반드시 필요하다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000597165"
+  },
+  {
+    "imgSrc": "../images/humanities/2.jpg",
+    "title": "지적 대화를 위한 넓고 얕은 지식 1",
+    "author": "채사장",
+    "publicationDate": "2020.02.05",
+    "description": "수백만 독자가 읽고 열광하고, 수년간 인문학 필수 도서로 자리 잡은 대표 인문학 시리즈가 옷을 갈아입고 돌아왔다",
+    "description2": "어렵고 딱딱하던 인문학 분야 판도를 뒤바꾼 책. 출간 즉시 베스트셀러에 오르는 것을 시작으로, 200만 부 누적 판매를 돌파해 더블 밀리언셀러를 기록하며, 장장 5년간 스테디셀러의 자리에서 꿈쩍도 하지 않은 책. 기초 상식에 목말라 있던 보통 사람들이 거리낌 없이 토론하게 하고 뉴스를 주체적으로 보게 하고 선거에서 주관을 갖게 한 책, 80대 독자가 독학을 시작하고 중학생 독자가 인문학을 읽게 하고 직장인들이 독서 모임을 갖게 하는 등 세대 불문 남녀노소 읽을 수 있도록 쉽고 재미있게 쓰였다고 평가받는 책. 이 모든 것이 《지적 대화를 위한 넓고 얕은 지식》에 대한 설명이다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000001938774"
+  },
+  {
+    "imgSrc": "../images/humanities/3.jpg",
+    "title": "정의란 무엇인가",
+    "author": "마이클 샌델",
+    "publicationDate": "2014.11.20",
+    "description": "정의론의 세계적 석학, 마이클 샌델 교수의 생기 넘치는 강의실로 초대합니다!",
+    "description2": "이 책은 구제 금융, 모병제, 대리 출산과 같은 현실 문제를 비롯해 경로를 이탈한 전차, 고통의 대가를 계량하는 시험과 같은 사고 실험을 주제로 삼아, 위대한 사상가들은 ‘정의’에 대해 어떻게 생각했는지 비판적으로 살펴본다. 가령, 저자는 벤담과 밀의 공리주의는 다수에게 도움이 되는 결정을 지지하지만, 인간의 존엄성 문제에는 도덕적 한계를 지니고 있다고 말한다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000625441"
+  },
+  {
+    "imgSrc": "../images/humanities/4.jpg",
+    "title": "팩트풀니스",
+    "author": "한스 로슬링, 올라 로슬링, 안나 로슬링 뢴룬드",
+    "publicationDate": "2019.03.08",
+    "description": "강력한 사실을 바탕으로 세상을 정확하게 바라보는 방법을 담은 혁명적 저작",
+    "description2": "이 책에서는 다양한 분야들이 다루고 있는데 극빈층의 비율, 여성의 교육기간, 기대 수명, 자연재해 사망자 수 등 최신 통계 데이터를 바탕으로 소개된다. 언론 등에 휘둘리지 않고 정확한 정보를 얻는 것이 얼마나 중요한지 강조하면서 우리가 보편적으로 겪고 있는 부정적인 심리 해결책도 제시했다. 즉 어떤 사건에 대해서 확대해석하거나 관점을 왜곡하지 않는 법을 배우게 될 것이다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000597791"
+  },
+  {
+    "imgSrc": "../images/humanities/5.jpg",
+    "title": "공간이 만든 공간",
+    "author": "유현준",
+    "publicationDate": "2020.05.01",
+    "description": "새로운 문화는 어떻게 만들어 지는가?",
+    "description2": "『공간이 만든 공간』은 그런 지역 간 문화의 교류로 새로운 생각과 문화가 만들어지고, 분야 간 융합으로 새로운 문화가 탄생하는 문화 유전자의 진화와 계보를 공간을 중심으로 살펴본다. 지금의 문화 유전자의 진화 단계는 어디이며, 앞으로는 무엇이 새로운 것을 탄생시킬까? 건축을 중심으로 과학, 역사, 지리 등 다양한 분야를 아우르며 문화의 기원과 창조, 교류, 변종, 발전에 대한 이야기를 저자는 흥미롭게 풀어낸다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000576557"
+  },
+  {
+    "imgSrc": "../images/humanities/6.jpg",
+    "title": "내가 공부하는 이유",
+    "author": "사이토 다카시",
+    "publicationDate": "2014.06.16",
+    "description": "일본 메이지대 괴짜 교수의 인생을 바꾸는 평생 공부법",
+    "description2": "『내가 공부하는 이유』는 일본에서 손꼽히는 교육심리학자이자 문학·철학부터 비즈니스 대화법·인간관계까지 종횡무진 경계를 넘나들며 공부하는 메이지대학교의 괴짜 교수 사이토 다카시의 저서이다. 예상치 못한 위기가 닥칠 때마다 공부를 통해 성장해 왔다는 저자는 적은 양이라도 꾸준히 공부할 것을 주문하며, 지난 20년간 직접 경험하고 수백 명의 제자들에게 가르쳐 준 ‘사이토식 핵심 공부법’을 알려준다.",
+    "link" : "https://product.kyobobook.co.kr/detail/S000000406922"
+  }
+]
