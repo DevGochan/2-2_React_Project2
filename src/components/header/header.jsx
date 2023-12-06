@@ -74,7 +74,7 @@ const Header = () => {
             >
               <Nav navbar className="ms-auto">
                 <NavItem>
-                  <Link className="nav-link" to={"/"}>
+                  <Link className="nav-link" to={"/newsfeed"}>
                     뉴스피드
                   </Link>
                 </NavItem>

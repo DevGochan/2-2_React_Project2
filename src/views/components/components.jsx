@@ -33,7 +33,8 @@ const Components = () => {
                 <div className="container-fluid">
                     <MainHeaderBanner />
                     <Cards />
-                    {/* <Buttons />
+                    {/* 아래는 시험적용 */}
+                    <Buttons />
                     <Labels />
                     <PagePagination />
                     <Images />
@@ -45,7 +46,7 @@ const Components = () => {
                     <TooltipPopover />
                     <Typography />
                     <JsComponents />
-                    <CallToAction /> */}
+                    <CallToAction />
                 </div>
             </div>
             <Footer />
