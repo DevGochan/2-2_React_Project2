@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import { db } from "../components/firebaseinit";
 import Header from "../components/header/header";
 import { HeaderBanner } from "../components/banner/banner";
-import ShowBookList from "../components/ShowBookList";
 import Footer from "../components/footer/footer";
-import FeedCard from "../components/FeedCard/feedCard";
+import NewsfeedCard from "../views/components/sections/NewsfeedCard";
+import NewsfeedManager from "../components/newsfeed/NewsfeedManager";
+// import FeedCard from "../components/FeedCard/feedCard";
 
 export default function Newsfeed() {
   const category = "뉴스피드";
@@ -33,8 +34,9 @@ export default function Newsfeed() {
       <div className="page-wrapper">
         <div className="container-fluid">
           <HeaderBanner category={category} />
-        {/* 여기에 카드들 넣음녀 ㄷㅁ */}
-        <FeedCard />
+          {/* <div class = "spacer" /> */}
+          {/* <NewsfeedCard /> */}
+          <NewsfeedManager />
         </div>
       </div>
       <Footer />
