@@ -28,7 +28,10 @@ function TaskManager() {
   return (
     <div className="taskManager">
       {/* <header>Task Manager</header> */}
-      <div className="taskManager__container">
+      <div
+        className="taskManager__container"
+        style={{ paddingBottom: "100px" }}
+      >
         <button onClick={() => setOpenAddModal(true)}>뉴스피드 작성하기</button>
         <div className="taskManager__tasks">
           {tasks.map((task) => (

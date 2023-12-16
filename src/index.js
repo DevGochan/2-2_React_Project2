@@ -18,7 +18,6 @@ import Newsfeed from "./pages/Newsfeed.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// var hist = createBrowserHistory();
 root.render(
   <BrowserRouter>
     {/* 페이지 전환 시 스크롤이 자동으로 올라가도록 해줌 */}

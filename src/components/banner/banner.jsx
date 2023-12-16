@@ -8,7 +8,7 @@ const MainHeaderBanner = () => {
       <Container>
         <Row className="justify-content-center">
           <Col lg="8" md="6" className="align-self-center text-center">
-            <h1 className="title">진혁이와 해찬이의 도서관</h1>
+            <h1 className="title">도서관</h1>
             <Link
               to="/#coming"
               className="btn btn-md m-t-30 btn-info-gradiant font-14"
