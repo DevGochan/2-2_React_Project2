@@ -12,10 +12,14 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal{
+.modal {
   width: 90%;
-  max-width: 500px;
+  max-width: 600px;
+  height: auto;
+  top: 160px;
   border: 5px;
+  left: auto;
+  right: auto;
   padding: 20px;
   background-color: white;
   display: flex;
@@ -23,6 +27,7 @@
   align-content: space-between;
   box-sizing: border-box;
 }
+
 
 .modal__head{
   display: flex;
