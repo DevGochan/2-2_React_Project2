@@ -5,38 +5,16 @@ import EditTask from "./EditTask";
 import { doc, updateDoc, deleteDoc } from "firebase/firestore";
 import { db } from "../firebaseinit";
 
-function Task({ id, title, description, completed }) {
-  const [checked, setChecked] = useState(completed);
+function Task({ id, chat, time, userName, userPhoto }) {
+  const [checked, setChecked] = useState(userName);
   const [open, setOpen] = useState({ edit: false, view: false });
 
-  const handleClose = () => {
-    setOpen({ edit: false, view: false });
-  };
+  // 1970년 1월 1일 기준으로 흐른 시간초를 읽기 쉽게 변환
+  const timestamp = time.seconds;
+  const date = new Date(timestamp * 1000);
+  const formattedDate = date.toLocaleString();
 
-  /* function to update firestore */
-  const handleChange = async () => {
-    const taskDocRef = doc(db, "tasks", id);
-    try {
-      await updateDoc(taskDocRef, {
-        completed: checked,
-      });
-    } catch (err) {
-      alert(err);
-    }
-  };
-
-  /* function to delete a document from firstore */
-  const handleDelete = async () => {
-    const taskDocRef = doc(db, "tasks", id);
-    try {
-      await deleteDoc(taskDocRef);
-    } catch (err) {
-      alert(err);
-    }
-  };
-
-
-  // 뉴스피드 카드에 마우스 hover시 효과를 주기 위한 state변수
+  // 채팅 메세지에 마우스 hover시 효과를 주기 위한 state변수
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -49,7 +27,7 @@ function Task({ id, title, description, completed }) {
 
   return (
     <div
-      className={`task ${checked && "task--borderColor"}`}
+      className={`task`}
       style={{
         boxShadow:
           "0px 0.8px 2px rgba(0,0,0,.032), 0px 2.7px 6.7px rgba(0,0,0,.048), 0px 12px 30px rgba(0,0,0,.08)",
@@ -66,49 +44,33 @@ function Task({ id, title, description, completed }) {
           className="checkbox-custom"
           name="checkbox"
           checked={checked}
-          onChange={handleChange}
           type="checkbox"
         />
-        {/* <label 
-          htmlFor={`checkbox-${id}`} 
-          className="checkbox-custom-label" 
-          onClick={() => setChecked(!checked)} >Completed</label> */}
       </div>
+      <span>
+        <img
+          src={userPhoto}
+          style={{ maxWidth: "40px", borderRadius: "10px" }}
+        />{" "}
+      </span>
       <div className="task__body">
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <div className="task__buttons">
-          <div className="task__deleteNedit">
-            <button
-              className="task__editButton"
-              onClick={() => setOpen({ ...open, edit: true })}
-            >
-              Edit
-            </button>
-            <button className="task__deleteButton" onClick={handleDelete}>
-              Delete
-            </button>
-          </div>
-          <button onClick={() => setOpen({ ...open, view: true })}>
-            자세히 보기
-          </button>
-        </div>
+        <span style={{ fontSize: "20px" }}>
+          <i>
+            <b>{userName}</b>
+          </i>{" "}
+          : {chat}{" "}
+        </span>
+        <span style={{ fontSize: "15px" }}>{formattedDate}</span>
       </div>
 
       {open.view && (
-        <TaskItem
-          onClose={handleClose}
-          title={title}
-          description={description}
-          open={open.view}
-        />
+        <TaskItem title={chat} description={userName} open={open.view} />
       )}
 
       {open.edit && (
         <EditTask
-          onClose={handleClose}
-          toEditTitle={title}
-          toEditDescription={description}
+          toEditTitle={chat}
+          toEditDescription={userName}
           open={open.edit}
           id={id}
         />

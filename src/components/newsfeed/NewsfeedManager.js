@@ -1,21 +1,55 @@
 import "./taskManager.css";
 import Task from "./Task";
-import { useState, useEffect } from "react";
-import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
+import { useState, useEffect, useCallback } from "react";
+import {
+  collection,
+  query,
+  orderBy,
+  onSnapshot,
+  addDoc,
+  Timestamp,
+} from "firebase/firestore";
 import { db } from "../firebaseinit";
-import AddTask from "./AddTask";
+import { useAuth } from "../../components/UserContext";
 
 function TaskManager() {
-  const [openAddModal, setOpenAddModal] = useState(false);
+  const [isFocused, setFocused] = useState(false);
+  const { userData } = useAuth();
   const [tasks, setTasks] = useState([]);
+  const [chat, setChat] = useState("");
+  const onChange = useCallback((e) => {
+    setChat(e.target.value);
+  }, []);
+  const handleSubmit = async (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
 
-  /* function to get all tasks from firestore in realtime */
+      // 공백 처리 부분
+      if (chat.trim() === "") {
+        return;
+      }
+
+      try {
+        await addDoc(collection(db, "chat"), {
+          chat: chat,
+          created: Timestamp.now(),
+          userName: userData.displayName, // 로그인한 사용자의 구글계정 이름
+          photoURL: userData.photoURL, // 로그인한 사용자의 구글계정 이미지
+        });
+        setChat("");
+      } catch (err) {
+        alert(err);
+      }
+    }
+  };
+
+  // firebase에서 실시간으로 데이터를 가져옴
   useEffect(() => {
-    const taskColRef = query(
-      collection(db, "tasks"),
+    const chatColRef = query(
+      collection(db, "chat"),
       orderBy("created", "desc")
     );
-    onSnapshot(taskColRef, (snapshot) => {
+    onSnapshot(chatColRef, (snapshot) => {
       setTasks(
         snapshot.docs.map((doc) => ({
           id: doc.id,
@@ -27,28 +61,45 @@ function TaskManager() {
 
   return (
     <div className="taskManager">
-      {/* <header>Task Manager</header> */}
       <div
         className="taskManager__container"
         style={{ paddingBottom: "100px" }}
       >
-        <button onClick={() => setOpenAddModal(true)}>뉴스피드 작성하기</button>
+        <input
+          type="text"
+          name="chat"
+          placeholder="채팅을 입력하세요"
+          value={chat}
+          onChange={onChange}
+          onKeyDown={handleSubmit}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
+          style={{
+            padding: "10px",
+            fontSize: "16px",
+            border: `1px solid ${isFocused ? "#007bff" : "#ccc"}`,
+            borderRadius: "5px",
+            boxSizing: "border-box",
+            margin: "0 auto",
+            maxWidth: "700px",
+            transition: "border-color 0.3s",
+            boxShadow: isFocused ? "0 0 5px rgba(0, 123, 255, 0.5)" : "none", // Optional: Add a box shadow
+            outline: "none", // Optional: Remove the default outline
+          }}
+        />
         <div className="taskManager__tasks">
           {tasks.map((task) => (
             <Task
               id={task.id}
               key={task.id}
-              // completed={task.data.completed}
-              title={task.data.title}
-              description={task.data.description}
+              chat={task.data.chat}
+              time={task.data.created}
+              userName={task.data.userName}
+              userPhoto={task.data.photoURL}
             />
           ))}
         </div>
       </div>
-
-      {openAddModal && (
-        <AddTask onClose={() => setOpenAddModal(false)} open={openAddModal} />
-      )}
     </div>
   );
 }
