@@ -10,7 +10,7 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import { db } from "../firebaseinit";
-import { useAuth } from "../../components/UserContext";
+import { useAuth } from "../../components/UserContext.js";
 
 function TaskManager() {
   const [isFocused, setFocused] = useState(false);
