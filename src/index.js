@@ -2,10 +2,8 @@ import React from "react";
 import "./assets/scss/style.scss";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserHistory } from "history";
-import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Components from "./views/components/components.jsx";
-import CustomComponents from "./views/custom-components/custom-components.jsx";
 import ScrollTop from "./ScrollTop.js";
 import { UserProvider } from "./components/UserContext.js";
 
