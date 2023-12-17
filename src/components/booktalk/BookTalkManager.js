@@ -37,8 +37,8 @@ function BookTalkManager() {
           photoURL: userData.photoURL, // 로그인한 사용자의 구글계정 이미지
         });
         setChat("");
-      } catch (err) {
-        alert(err);
+      } catch (e) {
+        alert("로그인이 필요한 서비스입니다.");
       }
     }
   };
