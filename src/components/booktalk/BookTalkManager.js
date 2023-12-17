@@ -1,5 +1,5 @@
-import "./taskManager.css";
-import Task from "./Task";
+import "./bookTalkManager.css";
+import Task from "./Talk.js";
 import { useState, useEffect, useCallback } from "react";
 import {
   collection,
@@ -9,10 +9,10 @@ import {
   addDoc,
   Timestamp,
 } from "firebase/firestore";
-import { db } from "../firebaseinit";
-import { useAuth } from "../../components/UserContext.js";
+import { db } from "../firebaseinit.js";
+import { useAuth } from "../UserContext.js";
 
-function TaskManager() {
+function BookTalkManager() {
   const [isFocused, setFocused] = useState(false);
   const { userData } = useAuth();
   const [tasks, setTasks] = useState([]);
@@ -83,8 +83,8 @@ function TaskManager() {
             margin: "0 auto",
             maxWidth: "700px",
             transition: "border-color 0.3s",
-            boxShadow: isFocused ? "0 0 5px rgba(0, 123, 255, 0.5)" : "none", // Optional: Add a box shadow
-            outline: "none", // Optional: Remove the default outline
+            boxShadow: isFocused ? "0 0 5px rgba(0, 123, 255, 0.5)" : "none",
+            outline: "none"
           }}
         />
         <div className="taskManager__tasks">
@@ -104,4 +104,4 @@ function TaskManager() {
   );
 }
 
-export default TaskManager;
+export default BookTalkManager;

@@ -4,7 +4,7 @@ import { db } from "../components/firebaseinit";
 import Header from "../components/header/header";
 import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
-import NewsfeedManager from "../components/newsfeed/NewsfeedManager";
+import BookTalkManager from "../components/booktalk/BookTalkManager";
 
 export default function Newsfeed() {
   const category = "북토크";
@@ -32,7 +32,7 @@ export default function Newsfeed() {
       <div className="page-wrapper">
         <div className="container-fluid">
           <HeaderBanner category={category} />
-          <NewsfeedManager />
+          <BookTalkManager />
         </div>
       </div>
       <Footer />

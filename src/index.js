@@ -13,7 +13,7 @@ import History from "./pages/History.js";
 import Computer from "./pages/Computer.js";
 import Science from "./pages/Science.js";
 import Religion from "./pages/Religion.js";
-import Newsfeed from "./pages/Newsfeed.js";
+import BookTalk from "./pages/BookTalk.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -30,7 +30,7 @@ root.render(
       <Route path="/history" element={<History />} />
       <Route path="/IT" element={<Computer />} />
       <Route path="/science" element={<Science />} />
-      <Route path="/newsfeed" element={<Newsfeed />} />
+      <Route path="/newsfeed" element={<BookTalk />} />
     </Routes>
   </BrowserRouter>
   </UserProvider>

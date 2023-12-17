@@ -1,7 +1,7 @@
-import "./task.css";
+import "./talk.css";
 import { useState } from "react";
-import TaskItem from "./TaskItem";
-import EditTask from "./EditTask";
+// import TaskItem from "./TaskItem";
+// import EditTask from "./EditTask";
 import { doc, updateDoc, deleteDoc } from "firebase/firestore";
 import { db } from "../firebaseinit";
 
@@ -63,18 +63,7 @@ function Task({ id, chat, time, userName, userPhoto }) {
         <span style={{ fontSize: "15px" }}>{formattedDate}</span>
       </div>
 
-      {open.view && (
-        <TaskItem title={chat} description={userName} open={open.view} />
-      )}
 
-      {open.edit && (
-        <EditTask
-          toEditTitle={chat}
-          toEditDescription={userName}
-          open={open.edit}
-          id={id}
-        />
-      )}
     </div>
   );
 }
