@@ -35,7 +35,6 @@ function Task({ id, title, description, completed }) {
     }
   };
 
-
   // 뉴스피드 카드에 마우스 hover시 효과를 주기 위한 state변수
   const [isHovered, setIsHovered] = useState(false);
 
