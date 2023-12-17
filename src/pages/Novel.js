@@ -13,21 +13,6 @@ const Novel = () => {
         <div className="container-fluid">
           <HeaderBanner category={category} />
           <ShowBookList category={category2} />
-
-          {/* <HeaderBanner />
-          <Cards />
-          <TooltipPopover />
-          <PagePagination />
-          <Images />
-          <Breadcrumbs />
-          <Dropdowns />
-          <PageForm />
-          <PageTable />
-          <Notification />
-         
-          <Typography />
-          <JsComponents />
-          <CallToAction />  */}
         </div>
       </div>
       <Footer />

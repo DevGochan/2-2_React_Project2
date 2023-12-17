@@ -14,8 +14,8 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">전화번호</h5>
             <p>
-              TEL : 031-539-1114 <br />
-              FAX : 031-539-1115
+              TEL : 031-123-1234 <br />
+              FAX : 031-122-3322
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">

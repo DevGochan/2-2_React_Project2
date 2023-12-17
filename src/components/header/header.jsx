@@ -73,11 +73,6 @@ const Header = () => {
               id="h6-info"
             >
               <Nav navbar className="ms-auto">
-                <NavItem>
-                  <Link className="nav-link" to={"/newsfeed"}>
-                    뉴스피드
-                  </Link>
-                </NavItem>
                 {userData ? (
                   <>
                     {/* 사용자가 로그인한 경우 */}
@@ -105,12 +100,7 @@ const Header = () => {
                         to={"/"}
                         onClick={handleLoginLinkClick}
                       >
-                        로그인
-                      </Link>
-                    </NavItem>
-                    <NavItem>
-                      <Link className="nav-link" to={"/custom-components"}>
-                        회원가입
+                        구글 로그인
                       </Link>
                     </NavItem>
                   </>
@@ -118,10 +108,10 @@ const Header = () => {
               </Nav>
               <div className="act-buttons">
                 <Link
-                  to="/#coming"
+                  to={"/newsfeed"}
                   className="btn btn-success-gradiant font-14"
                 >
-                  다크모드/라이트모드{" "}
+                  북토크{" "}
                 </Link>
               </div>
             </Collapse>

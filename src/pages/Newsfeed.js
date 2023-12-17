@@ -4,12 +4,10 @@ import { db } from "../components/firebaseinit";
 import Header from "../components/header/header";
 import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
-import NewsfeedCard from "../views/components/sections/NewsfeedCard";
 import NewsfeedManager from "../components/newsfeed/NewsfeedManager";
-// import FeedCard from "../components/FeedCard/feedCard";
 
 export default function Newsfeed() {
-  const category = "뉴스피드";
+  const category = "북토크";
 
   const [todos, setTodos] = useState([]);
   async function getTodos() {
@@ -34,8 +32,6 @@ export default function Newsfeed() {
       <div className="page-wrapper">
         <div className="container-fluid">
           <HeaderBanner category={category} />
-          {/* <div class = "spacer" /> */}
-          {/* <NewsfeedCard /> */}
           <NewsfeedManager />
         </div>
       </div>
