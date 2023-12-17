@@ -9,6 +9,11 @@ function Task({ id, chat, time, userName, userPhoto }) {
   const [checked, setChecked] = useState(userName);
   const [open, setOpen] = useState({ edit: false, view: false });
 
+  // 1970년 1월 1일 기준으로 흐른 시간초를 읽기 쉽게 변환
+  const timestamp = time.seconds;
+  const date = new Date(timestamp * 1000);
+  const formattedDate = date.toLocaleString();
+
   // 채팅 메세지에 마우스 hover시 효과를 주기 위한 state변수
   const [isHovered, setIsHovered] = useState(false);
 
@@ -42,9 +47,20 @@ function Task({ id, chat, time, userName, userPhoto }) {
           type="checkbox"
         />
       </div>
+      <span>
+        <img
+          src={userPhoto}
+          style={{ maxWidth: "40px", borderRadius: "10px" }}
+        />{" "}
+      </span>
       <div className="task__body">
-        <h2>{chat}</h2>
-        <p>{userName}</p>
+        <span style={{ fontSize: "20px" }}>
+          <i>
+            <b>{userName}</b>
+          </i>{" "}
+          : {chat}{" "}
+        </span>
+        <span style={{ fontSize: "15px" }}>{formattedDate}</span>
       </div>
 
       {open.view && (

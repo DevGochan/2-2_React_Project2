@@ -13,6 +13,7 @@ import { db } from "../firebaseinit";
 import { useAuth } from "../../components/UserContext";
 
 function TaskManager() {
+  const [isFocused, setFocused] = useState(false);
   const { userData } = useAuth();
   const [tasks, setTasks] = useState([]);
   const [chat, setChat] = useState("");
@@ -33,7 +34,7 @@ function TaskManager() {
           chat: chat,
           created: Timestamp.now(),
           userName: userData.displayName, // 로그인한 사용자의 구글계정 이름
-          photoURL: userData.photoURL // 로그인한 사용자의 구글계정 이미지
+          photoURL: userData.photoURL, // 로그인한 사용자의 구글계정 이미지
         });
         setChat("");
       } catch (err) {
@@ -71,6 +72,20 @@ function TaskManager() {
           value={chat}
           onChange={onChange}
           onKeyDown={handleSubmit}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
+          style={{
+            padding: "10px",
+            fontSize: "16px",
+            border: `1px solid ${isFocused ? "#007bff" : "#ccc"}`,
+            borderRadius: "5px",
+            boxSizing: "border-box",
+            margin: "0 auto",
+            maxWidth: "700px",
+            transition: "border-color 0.3s",
+            boxShadow: isFocused ? "0 0 5px rgba(0, 123, 255, 0.5)" : "none", // Optional: Add a box shadow
+            outline: "none", // Optional: Remove the default outline
+          }}
         />
         <div className="taskManager__tasks">
           {tasks.map((task) => (
