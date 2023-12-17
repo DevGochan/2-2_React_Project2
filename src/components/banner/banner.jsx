@@ -8,13 +8,7 @@ const MainHeaderBanner = () => {
       <Container>
         <Row className="justify-content-center">
           <Col lg="8" md="6" className="align-self-center text-center">
-            <h1 className="title">도서관</h1>
-            <Link
-              to="/#coming"
-              className="btn btn-md m-t-30 btn-info-gradiant font-14"
-            >
-              이부분에 검색창 구현
-            </Link>
+            <h1 className="title">Welcome to the library!</h1>
           </Col>
         </Row>
       </Container>

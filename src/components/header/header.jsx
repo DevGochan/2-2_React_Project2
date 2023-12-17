@@ -61,7 +61,7 @@ const Header = () => {
         <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
             <NavbarBrand href="/">
-              <img src={logo} alt="wrapkit" />
+              <img style={{width: '170px', height: '60px'}} src={logo} alt="wrapkit" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>
