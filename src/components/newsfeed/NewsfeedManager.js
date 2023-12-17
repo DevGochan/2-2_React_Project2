@@ -10,15 +10,15 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import { db } from "../firebaseinit";
+import { useAuth } from "../../components/UserContext";
 
 function TaskManager() {
+  const { userData } = useAuth();
   const [tasks, setTasks] = useState([]);
   const [chat, setChat] = useState("");
-
   const onChange = useCallback((e) => {
     setChat(e.target.value);
   }, []);
-
   const handleSubmit = async (e) => {
     if (e.key === "Enter") {
       e.preventDefault();
@@ -32,7 +32,8 @@ function TaskManager() {
         await addDoc(collection(db, "chat"), {
           chat: chat,
           created: Timestamp.now(),
-          
+          userName: userData.displayName, // 로그인한 사용자의 구글계정 이름
+          photoURL: userData.photoURL // 로그인한 사용자의 구글계정 이미지
         });
         setChat("");
       } catch (err) {
@@ -76,8 +77,10 @@ function TaskManager() {
             <Task
               id={task.id}
               key={task.id}
-              title={task.data.title}
-              description={task.data.description}
+              chat={task.data.chat}
+              time={task.data.created}
+              userName={task.data.userName}
+              userPhoto={task.data.photoURL}
             />
           ))}
         </div>
