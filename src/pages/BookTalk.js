@@ -5,6 +5,7 @@ import Header from "../components/header/header";
 import { HeaderBanner } from "../components/banner/banner";
 import Footer from "../components/footer/footer";
 import BookTalkManager from "../components/booktalk/BookTalkManager";
+import MoveToTop from "../MoveToTop"
 
 export default function Newsfeed() {
   const category = "북토크";
@@ -35,6 +36,7 @@ export default function Newsfeed() {
           <BookTalkManager />
         </div>
       </div>
+      <MoveToTop />
       <Footer />
     </div>
   );
